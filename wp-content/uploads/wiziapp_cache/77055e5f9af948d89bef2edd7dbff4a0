@@ -1,0 +1,528 @@
+s:36462:"<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<base href="http://www.remkoweijnen.nl/blog/" />
+	<title>Remko Weijnen&#039;s Blog (Remko&#039;s Blog) | About Terminal Server, Citrix, Delphi and other stuff</title>
+	<!--
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=0;">
+	-->
+	<meta name="viewport" content="width=320, initial-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+	<link rel="shortcut icon" href="http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/resources/icons/b1778d34655e233461984b0127ef8fda_57.png" />
+	<link rel="apple-touch-icon" href="http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/resources/icons/b1778d34655e233461984b0127ef8fda_57.png" />
+	<link rel="apple-touch-startup-image" href="http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/resources/default.png" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://www.remkoweijnen.nl/blog/xmlrpc.php" />
+
+	<link rel="stylesheet" href="http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/resources/main.css" type="text/css" />
+	<link rel="stylesheet" href="http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/jquery.mobile-1.1.1.css" type="text/css" />
+	<link rel="stylesheet" href="http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/jquery.mobile.scrollview.css" type="text/css" />
+	<link rel="stylesheet" href="https://api.wiziapp.com/application/postViewCss/90104?v=v2.0.2a&c=0" type="text/css" id="themeCss" />
+	<link rel="stylesheet" href="http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/iphone/default.css" type="text/css" />
+	<link rel="stylesheet" href="http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/iphone/style.css" type="text/css" />
+
+	<script type="text/javascript" src="http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/resources/handshake.js"></script>
+	<script type="text/javascript" src="http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/resources/config.js"></script>
+	<script type="text/javascript">
+		window.WiziappPlatformVersion = '2.0.2';
+		window.WiziappAccessPoint = 'http://www.remkoweijnen.nl/blog';
+		window.isSingle = false;
+	</script>
+	<!-- wp_head start -->
+	                        <style type="text/css" media="screen" >
+                                .socialwrap li.icon_text a img, .socialwrap li.iconOnly a img, .followwrap li.icon_text a img, .followwrap li.iconOnly a img{border-width:0 !important;background-color:none;}#follow.right {width:32px;position:fixed; right:0; top:100px;background-color:#878787;padding:10px 0;font-family:impact,charcoal,arial, helvetica,sans-serif;-moz-border-radius-topleft: 5px;-webkit-border-top-left-radius:5px;-moz-border-radius-bottomleft:5px;-webkit-border-bottom-left-radius:5px;border:2px solid #fff;border-right-width:0}#follow.right ul {padding:0; margin:0; list-style-type:none !important;font-size:24px;color:black;}
+#follow.right ul li {padding-bottom:10px;list-style-type:none !important;padding-left:4px;padding-right:4px}
+#follow img{border:none;}#follow.right ul li.follow {margin:0 4px;}
+#follow.right ul li.follow img {border-width:0;display:block;overflow:hidden; background:transparent url(http://www.remkoweijnen.nl/blog/wp-content/plugins/share-and-follow/images/impact/follow-right.png) no-repeat -0px 0px;height:79px;width:20px;}
+#follow.right ul li a {display:block;}
+#follow.right ul li.follow span, #follow ul li a span {display:none}.share {margin:0 3px 3px 0;}
+.phat span {display:inline;}
+ul.row li {float:left;list-style-type:none;}
+li.iconOnly a span.head {display:none}
+#follow.left ul.size16 li.follow{margin:0px auto !important}
+li.icon_text a {padding-left:0;margin-right:3px}
+li.text_only a {background-image:none !important;padding-left:0;}
+li.text_only a img {display:none;}
+li.icon_text a span{background-image:none !important;padding-left:0 !important; }
+li.iconOnly a span.head {display:none}
+ul.socialwrap li {margin:0 3px 3px 0 !important;}
+ul.socialwrap li a {text-decoration:none;}ul.row li {float:left;line-height:auto !important;}
+ul.row li a img {padding:0}.size16 li a,.size24 li a,.size32 li a, .size48 li a, .size60 li a {display:block}ul.socialwrap {list-style-type:none !important;margin:0; padding:0;text-indent:0 !important;}
+ul.socialwrap li {list-style-type:none !important;background-image:none;padding:0;list-style-image:none !important;}
+ul.followwrap {list-style-type:none !important;margin:0; padding:0}
+ul.followwrap li {margin-right:3px;margin-bottom:3px;list-style-type:none !important;}
+#follow.right ul.followwrap li, #follow.left ul.followwrap li {margin-right:0px;margin-bottom:0px;}
+.shareinpost {clear:both;padding-top:10px}.shareinpost ul.socialwrap {list-style-type:none !important;margin:0 !important; padding:0 !important}
+.shareinpost ul.socialwrap li {padding-left:0 !important;background-image:none !important;margin-left:0 !important;list-style-type:none !important;text-indent:0 !important}
+.socialwrap li.icon_text a img, .socialwrap li.iconOnly a img{border-width:0}ul.followrap li {list-style-type:none;list-style-image:none !important;}
+div.clean {clear:left;}
+div.display_none {display:none;}
+                        </style>
+                                                <style type="text/css" media="print" >
+                                body {background: white;font-size: 12pt;color:black;}
+ * {background-image:none;}
+ #wrapper, #content {width: auto;margin: 0 5%;padding: 0;border: 0;float: none !important;color: black;background: transparent none;}
+ a { text-decoration : underline; color : #0000ff; }
+#menu, #navigation, #navi, .menu {display:none}
+                        </style>
+                        <link rel="image_src" href="" /> 
+<link rel='stylesheet' id='crayon_style-css'  href='http://www.remkoweijnen.nl/blog/wp-content/plugins/crayon-syntax-highlighter/css/crayon_style.css?ver=1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon_global_style-css'  href='http://www.remkoweijnen.nl/blog/wp-content/plugins/crayon-syntax-highlighter/css/global_style.css?ver=1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://www.remkoweijnen.nl/blog/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='http://www.remkoweijnen.nl/blog/wp-includes/js/thickbox/thickbox.css?ver=20121105' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_dlmp_styles-css'  href='http://www.remkoweijnen.nl/blog/wp-content/plugins/download-monitor/page-addon/styles.css?ver=3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.remkoweijnen.nl/blog/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/scripts/jquery.easing.1.3.js?ver=2.0.2'></script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/scripts/jquery.mousewheel.min.js?ver=2.0.2'></script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/scripts/jquery.mobile-1.1.1.js?ver=2.0.2'></script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/scripts/jquery.mobile.scrollview.js?ver=2.0.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"is_admin":"0","ajaxurl":"http:\/\/www.remkoweijnen.nl\/blog\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-content/plugins/crayon-syntax-highlighter/js/util.js?ver=1.17'></script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-content/plugins/crayon-syntax-highlighter/js/jquery.popup.js?ver=1.17'></script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-content/plugins/crayon-syntax-highlighter/js/crayon.js?ver=1.17'></script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/scripts/scrollview.js?ver=2.0.2'></script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/resources/effects_config.js?ver=2.0.2'></script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/scripts/jquery.mobile.simpledialog.js?ver=2.0.2'></script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/scripts/webapp.js?ver=2.0.2'></script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/scripts/favorites.js?ver=2.0.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wiziapp_name_space = {"ajaxurl":"http:\/\/www.remkoweijnen.nl\/blog\/wp-admin\/admin-ajax.php","home_url":"http:\/\/www.remkoweijnen.nl\/blog"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-content/plugins/wiziapp-create-your-own-native-iphone-app/themes/webapp/scripts/wiziapp.js?ver=2.0.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.remkoweijnen.nl/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.remkoweijnen.nl/blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5" />
+<link rel='shortlink' href='http://wp.me/1DoTp' />
+<!-- Meta tags added by Robots Meta: http://yoast.com/wordpress/meta-robots-wordpress-plugin/ -->
+<meta name="robots" content="noarchive" />
+<meta name="google-site-verification" content="a" />
+<meta name="y_key" content="a" />
+<meta name="msvalidate.01" content="a" />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="blog" />
+<meta property="og:title" content="Remko Weijnen&#039;s Blog (Remko&#039;s Blog)" />
+<meta property="og:url" content="http://www.remkoweijnen.nl/blog/2012/12/06/return-username-instead-of-computername-to-applications/" />
+<meta property="og:description" content="About Terminal Server, Citrix, Delphi and other stuff" />
+<meta property="og:site_name" content="Remko Weijnen&#039;s Blog (Remko&#039;s Blog)" />
+	<!-- wp_head end -->
+</head>
+<body class="home blog iphone_general">
+	<div data-role="page" data-theme="c">
+		<div data-role="header" data-id="header" data-position="fixed" class="navigation">
+			
+			<h1>Remko Blog Reader</h1>
+
+					</div><!-- /header -->
+
+		<div data-role="content" data-scroll="true" class="screen" data-footer-id="tabbar">
+			<ul data-role="listview">
+		<li class="postDescriptionCellItem featured_post cellItem default" data-post-id="post_48">
+			<a href="nav://post/http%3A%2F%2Fwww.remkoweijnen.nl%2Fblog%2F2007%2F11%2F01%2Fdear-visitor%2F" class="actionURL featured_post" data-transition="slide">
+				<div class="attribute imageURL featured_post_image webapp_image_overriding" data-image-src="http://www.remkoweijnen.nl/blog/?wiziapp/getthumb/48&type=featured_post_thumb">
+					<img class="hidden ignore_effect" src="" data-class=""/>
+				</div>
+				<div class="attribute webapp_post_title featured_post_title_webapp">Dear Visitor</div>
+				<span class="attribute hidden">If this is your first visit, take your time...</span>
+				<span class="attribute featured_post_rating">0</span>
+				<div class="combined_attributes webapp_post_details">
+					<span class="webapp_post_date featured_post_date_webapp">Nov, 1, 07</span>
+					<span class="webapp_post_date hidden"> Remko</span>
+				</div>
+				<span class="attribute valign_attribute numOfComments hidden">0</span>
+			</a>
+		</li>
+		
+</ul>
+<ul data-role="listview">
+		<li class="postDescriptionCellItem general_post cellItem default" data-post-id="post_2976">
+			<a href="nav://post/http%3A%2F%2Fwww.remkoweijnen.nl%2Fblog%2F2013%2F01%2F03%2Fwordpress-and-the-cookie-monster%2F" class="actionURL general_post" data-transition="slide">
+				<div class="attribute imageURL general_post_image" data-image-src="http://www.remkoweijnen.nl/blog/?wiziapp/getthumb/2976&type=posts_thumb">
+					<img class="hidden ignore_effect" src="" data-class=""/>
+				</div>
+				<div class="attribute webapp_post_title general_post_title_webapp">Wordpress and the Cookie Monster</div>
+				<span class="attribute hidden">As you are probably aware the EU has made...</span>
+				<span class="attribute hidden">0</span>
+				<div class="combined_attributes webapp_post_details">
+					<span class="webapp_post_date general_post_date_webapp">2 weeks ago</span>
+					<span class="webapp_post_date hidden"> Remko</span>
+				</div>
+				<span class="attribute valign_attribute numOfComments general_post_numOfComments_webapp">0</span>
+			</a>
+		</li>
+		
+
+		<li class="postDescriptionCellItem general_post cellItem default" data-post-id="post_2955">
+			<a href="nav://post/http%3A%2F%2Fwww.remkoweijnen.nl%2Fblog%2F2013%2F01%2F02%2Fchange-tab-order-in-an-executable%2F" class="actionURL general_post" data-transition="slide">
+				<div class="attribute imageURL general_post_image" data-image-src="http://www.remkoweijnen.nl/blog/?wiziapp/getthumb/2955&type=posts_thumb">
+					<img class="hidden ignore_effect" src="" data-class=""/>
+				</div>
+				<div class="attribute webapp_post_title general_post_title_webapp">Change Tab Order in an Executable</div>
+				<span class="attribute hidden">An application called Cardiology PACS was...</span>
+				<span class="attribute hidden">0</span>
+				<div class="combined_attributes webapp_post_details">
+					<span class="webapp_post_date general_post_date_webapp">2 weeks ago</span>
+					<span class="webapp_post_date hidden"> Remko</span>
+				</div>
+				<span class="attribute valign_attribute numOfComments general_post_numOfComments_webapp">0</span>
+			</a>
+		</li>
+		
+
+		<li class="postDescriptionCellItem general_post cellItem default" data-post-id="post_2937">
+			<a href="nav://post/http%3A%2F%2Fwww.remkoweijnen.nl%2Fblog%2F2012%2F12%2F28%2Ftrick-to-export-private-key-from-certificate-request%2F" class="actionURL general_post" data-transition="slide">
+				<div class="attribute imageURL general_post_image" data-image-src="http://www.remkoweijnen.nl/blog/?wiziapp/getthumb/2937&type=posts_thumb">
+					<img class="hidden ignore_effect" src="" data-class=""/>
+				</div>
+				<div class="attribute webapp_post_title general_post_title_webapp">Trick to Export Private Key from Certificate Request</div>
+				<span class="attribute hidden">I noticed something interesting today: I...</span>
+				<span class="attribute hidden">0</span>
+				<div class="combined_attributes webapp_post_details">
+					<span class="webapp_post_date general_post_date_webapp">Dec, 28, 12</span>
+					<span class="webapp_post_date hidden"> Remko</span>
+				</div>
+				<span class="attribute valign_attribute numOfComments general_post_numOfComments_webapp">0</span>
+			</a>
+		</li>
+		
+
+		<li class="postDescriptionCellItem general_post cellItem default" data-post-id="post_2918">
+			<a href="nav://post/http%3A%2F%2Fwww.remkoweijnen.nl%2Fblog%2F2012%2F12%2F18%2Fchange-ops-picture-with-vcds%2F" class="actionURL general_post" data-transition="slide">
+				<div class="attribute imageURL general_post_image" data-image-src="http://www.remkoweijnen.nl/blog/?wiziapp/getthumb/2918&type=posts_thumb">
+					<img class="hidden ignore_effect" src="" data-class=""/>
+				</div>
+				<div class="attribute webapp_post_title general_post_title_webapp">Change OPS picture with VCDS</div>
+				<span class="attribute hidden">This time a car topic: using VCDS you can...</span>
+				<span class="attribute hidden">0</span>
+				<div class="combined_attributes webapp_post_details">
+					<span class="webapp_post_date general_post_date_webapp">Dec, 18, 12</span>
+					<span class="webapp_post_date hidden"> Remko</span>
+				</div>
+				<span class="attribute valign_attribute numOfComments general_post_numOfComments_webapp">0</span>
+			</a>
+		</li>
+		
+
+		<li class="postDescriptionCellItem general_post cellItem default" data-post-id="post_2905">
+			<a href="nav://post/http%3A%2F%2Fwww.remkoweijnen.nl%2Fblog%2F2012%2F12%2F11%2Foffice-2010-very-slow-when-thinapped%2F" class="actionURL general_post" data-transition="slide">
+				<div class="attribute imageURL general_post_image" data-image-src="http://www.remkoweijnen.nl/blog/?wiziapp/getthumb/2905&type=posts_thumb">
+					<img class="hidden ignore_effect" src="" data-class=""/>
+				</div>
+				<div class="attribute webapp_post_title general_post_title_webapp">Office 2010 very slow when ThinApped</div>
+				<span class="attribute hidden">This blog is about an issue with VMware...</span>
+				<span class="attribute hidden">0</span>
+				<div class="combined_attributes webapp_post_details">
+					<span class="webapp_post_date general_post_date_webapp">Dec, 11, 12</span>
+					<span class="webapp_post_date hidden"> Remko</span>
+				</div>
+				<span class="attribute valign_attribute numOfComments general_post_numOfComments_webapp">0</span>
+			</a>
+		</li>
+		
+
+		<li class="postDescriptionCellItem general_post cellItem default" data-post-id="post_2870">
+			<a href="nav://post/http%3A%2F%2Fwww.remkoweijnen.nl%2Fblog%2F2012%2F12%2F07%2Flicense-check-fails-on-citrix-xenapp%2F" class="actionURL general_post" data-transition="slide">
+				<div class="attribute imageURL general_post_image" data-image-src="http://www.remkoweijnen.nl/blog/?wiziapp/getthumb/2870&type=posts_thumb">
+					<img class="hidden ignore_effect" src="" data-class=""/>
+				</div>
+				<div class="attribute webapp_post_title general_post_title_webapp">License Check fails on Citrix XenApp</div>
+				<span class="attribute hidden">Today I was asked to assist in getting an...</span>
+				<span class="attribute hidden">0</span>
+				<div class="combined_attributes webapp_post_details">
+					<span class="webapp_post_date general_post_date_webapp">Dec, 7, 12</span>
+					<span class="webapp_post_date hidden"> Remko</span>
+				</div>
+				<span class="attribute valign_attribute numOfComments general_post_numOfComments_webapp">0</span>
+			</a>
+		</li>
+		
+
+		<li class="postDescriptionCellItem general_post cellItem default" data-post-id="post_2850">
+			<a href="nav://post/http%3A%2F%2Fwww.remkoweijnen.nl%2Fblog%2F2012%2F12%2F07%2Fparse-res-building-blocks-with-powershell%2F" class="actionURL general_post" data-transition="slide">
+				<div class="attribute imageURL general_post_image" data-image-src="http://www.remkoweijnen.nl/blog/?wiziapp/getthumb/2850&type=posts_thumb">
+					<img class="hidden ignore_effect" src="" data-class=""/>
+				</div>
+				<div class="attribute webapp_post_title general_post_title_webapp">Parse RES Building Blocks with PowerShell</div>
+				<span class="attribute hidden">Background...</span>
+				<span class="attribute hidden">0</span>
+				<div class="combined_attributes webapp_post_details">
+					<span class="webapp_post_date general_post_date_webapp">Dec, 7, 12</span>
+					<span class="webapp_post_date hidden"> Remko</span>
+				</div>
+				<span class="attribute valign_attribute numOfComments general_post_numOfComments_webapp">0</span>
+			</a>
+		</li>
+		
+
+		<li class="postDescriptionCellItem general_post cellItem default" data-post-id="post_2814">
+			<a href="nav://post/http%3A%2F%2Fwww.remkoweijnen.nl%2Fblog%2F2012%2F12%2F06%2Fapplication-hangs-when-scanning-in-citrix-xenapp%2F" class="actionURL general_post" data-transition="slide">
+				<div class="attribute imageURL general_post_image" data-image-src="http://www.remkoweijnen.nl/blog/?wiziapp/getthumb/2814&type=posts_thumb">
+					<img class="hidden ignore_effect" src="" data-class=""/>
+				</div>
+				<div class="attribute webapp_post_title general_post_title_webapp">Application Hangs when Scanning in Citrix XenApp</div>
+				<span class="attribute hidden">Another interesting issue today with an...</span>
+				<span class="attribute hidden">0</span>
+				<div class="combined_attributes webapp_post_details">
+					<span class="webapp_post_date general_post_date_webapp">Dec, 6, 12</span>
+					<span class="webapp_post_date hidden"> Remko</span>
+				</div>
+				<span class="attribute valign_attribute numOfComments general_post_numOfComments_webapp">0</span>
+			</a>
+		</li>
+		
+
+		<li class="postDescriptionCellItem general_post cellItem default" data-post-id="post_2841">
+			<a href="nav://post/http%3A%2F%2Fwww.remkoweijnen.nl%2Fblog%2F2012%2F12%2F06%2Freturn-username-instead-of-computername-to-applications%2F" class="actionURL general_post" data-transition="slide">
+				<div class="attribute imageURL general_post_image" data-image-src="http://www.remkoweijnen.nl/blog/?wiziapp/getthumb/2841&type=posts_thumb">
+					<img class="hidden ignore_effect" src="" data-class=""/>
+				</div>
+				<div class="attribute webapp_post_title general_post_title_webapp">Return username instead of computername to Applications</div>
+				<span class="attribute hidden">Some applications use the computer's name as...</span>
+				<span class="attribute hidden">0</span>
+				<div class="combined_attributes webapp_post_details">
+					<span class="webapp_post_date general_post_date_webapp">Dec, 6, 12</span>
+					<span class="webapp_post_date hidden"> Remko</span>
+				</div>
+				<span class="attribute valign_attribute numOfComments general_post_numOfComments_webapp">0</span>
+			</a>
+		</li>
+		
+
+<li class="showMoreCellItem more cellItem default" data-icon="false">
+                            <a class="showMore actionURL full" href="nav://list/http%3A%2F%2Fwww.remkoweijnen.nl%2Fblog%2F%3Fwiziapp%2Fcontent%2Flist%2Fposts%2Frecent%26wizi_ver%3D2.0.2%26ap%3D1%26output%3Dhtml%26back%3D0%26wizipage%3D1" rel="inlineUpdate">
+                                <span class="more_title title attribute text_attribute">Load 10 more items...</span>
+                                <span class="more_activity"></span>
+                            </a>
+                            </li>
+</ul>
+		</div><!-- /content -->
+
+			<div data-id="tabbar" data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-tabbar">
+		<div data-role="navbar" class="nav-tabbar" data-grid="d">
+			<ul>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/posts/recent&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343132 ui-btn-active ui-state-persist" data-icon="custom" data-page-type="" data-transition="slide">Latest</a>
+				</li>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/categories&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343133" data-icon="custom" data-page-type="" data-transition="slide">Categories</a>
+				</li>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/pages&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343134" data-icon="custom" data-page-type="" data-transition="slide">Pages</a>
+				</li>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/tags&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343135" data-icon="custom" data-page-type="" data-transition="slide">Tags</a>
+				</li>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/archive&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343136" data-icon="custom" data-page-type="" data-transition="slide">Archive</a>
+				</li>
+			</ul>
+		</div><!-- /tabbar-->
+	</div><!-- /footer -->
+	</div><!-- /page -->
+
+	<div data-role="page" id="moreScreen" data-theme="z">
+	<div data-role="header" data-id="header" data-position="fixed">
+		<h1>More</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" class="screen" data-footer-id="tabbar">
+			</div><!-- /content -->
+
+		<div data-id="tabbar" data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-tabbar">
+		<div data-role="navbar" class="nav-tabbar" data-grid="d">
+			<ul>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/posts/recent&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343132" data-icon="custom" data-page-type="" data-transition="slide" data-direction="reverse">Latest</a>
+				</li>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/categories&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343133" data-icon="custom" data-page-type="" data-transition="slide" data-direction="reverse">Categories</a>
+				</li>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/pages&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343134" data-icon="custom" data-page-type="" data-transition="slide" data-direction="reverse">Pages</a>
+				</li>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/tags&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343135" data-icon="custom" data-page-type="" data-transition="slide" data-direction="reverse">Tags</a>
+				</li>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/archive&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343136" data-icon="custom" data-page-type="" data-transition="slide" data-direction="reverse">Archive</a>
+				</li>
+			</ul>
+		</div><!-- /tabbar-->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="favorites" class="got_empty_state" data-class="favorites_screen" data-theme="z">
+	<div data-role="header" data-id="header" data-position="fixed">
+				<h1>Favorites</h1>
+		<div class="edit_favorites ui-btn-right" data-alternate-text="Done" data-text="Edit">Edit</div>
+	</div><!-- /header -->
+
+	<div data-role="content" class="screen flat_screen" data-footer-id="tabbar"></div>
+
+	<div data-id="tabbar" data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-tabbar">
+		<div data-role="navbar" class="nav-tabbar" data-grid="d">
+			<ul>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/posts/recent&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343132" data-icon="custom" data-page-type="" data-transition="slide">Latest</a>
+				</li>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/categories&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343133" data-icon="custom" data-page-type="" data-transition="slide">Categories</a>
+				</li>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/pages&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343134" data-icon="custom" data-page-type="" data-transition="slide">Pages</a>
+				</li>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/tags&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343135" data-icon="custom" data-page-type="" data-transition="slide">Tags</a>
+				</li>
+				<li>
+					<a href="http://www.remkoweijnen.nl/blog/?wiziapp/content/list/archive&amp;wizi_ver=2.0.2&amp;ap=1&amp;output=html&amp;back=0" class="list_tabbar tabbar-tab-74343136343136" data-icon="custom" data-page-type="" data-transition="slide">Archive</a>
+				</li>
+			</ul>
+		</div><!-- /tabbar-->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="login" class="system_page" data-class="login_screen" data-theme="z">
+	<div data-role="header" data-id="header" data-position="fixed">
+		<div class="cancel_screen ui-btn-left" data-alternate-text="Cancel" data-text="Edit">Cancel</div>
+		<h1>Login</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" class="screen flat_screen" data-footer-id="tabbar">
+		<form method="post" action="#">
+			<div class="fields">
+				<div class="clear"></div>
+				<input data-role="none" type="text" name="username" id="username" value="" placeholder="Username"/>
+
+				<label for="password" class="">Password</label>
+				<input type="text" name="password" id="password" value="" placeholder="Password"/>
+			</div>
+
+			<a href="#" data-role="button" data-shadow="false" data-corners="false" data-inline="true" class="button login_button">Login</a>
+			<a href="#" data-role="button" data-shadow="false" data-corners="false" data-inline="true" data-theme="z" class="button cancel_button">Cancel</a>
+			<br />
+			<a href="#" data-role="button" data-shadow="false" data-corners="false" data-inline="true" class="transparent_button forgot_password_button">Forgot Password?</a>
+			<a href="#" data-role="button" data-shadow="false" data-corners="false" data-inline="true" data-theme="z" class="transparent_button register_button">Register</a>
+		</form>
+	</div><!-- /content -->
+</div><!-- /page -->
+
+<div data-role="dialog" id="sharing_menu">
+	<div data-role="content">
+		<p>
+			<a href="" data-role="button" target="_blank">Facebook</a>
+		</p>
+		<p>
+			<a href="" data-role="button" target="_blank">Tweeter</a>
+		</p>
+		<p>
+			<a href="" data-role="button">Email</a>
+		</p>
+		<p>
+			<a href="#" data-rel="back" data-theme="e" data-role="button">Cancel</a>
+		</p>
+			</div><!-- /content -->
+</div><!-- /page -->
+
+<div id="image_viewer_template">
+	<div data-role="page" data-theme="z" class="image_viewer">
+		<div data-role="header" data-id="header" data-position="fixed" class="navigation">
+			<a data-role="button" data-corners="false" data-theme="z" href="#" class="navigation_back_button_wrapper ui-btn-left" data-transition="slide" data-direction="reverse">
+	<span class="navigation_back_button">Back</span>
+	<span class="navigation_back_button_closer"></span>
+</a>
+			<h1></h1>
+		</div><!-- /header -->
+
+		<div data-role="content" class="content ui-scrollview-clip">
+			<div class="all-wrapper">
+				<div class="template">
+					<div class="single-wrapper single-wrapper-displaced">
+						<div class="direct-wrapper ui-loading">
+							<img class="thumbnail" src="" border="0" />
+							<div class="ui-loader ui-corner-all ui-body-a ui-loader-default" style="position: absolute">
+								<span class="ui-icon ui-icon-loading"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="single-wrapper single-wrapper-displaced">
+					<div class="direct-wrapper">
+						<img class="fullsize" src="" border="0" />
+					</div>
+				</div>
+			</div>
+		</div><!-- /content -->
+
+		<div data-id="image-viewer-tabbar" data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-tabbar image_viewer_tabbar">
+			<div data-role="navbar" class="nav-tabbar" data-grid="d">
+				<ul>
+					<li>
+						<a href="#sharing_menu" class="image-viewer-share" data-icon="custom" data-rel="dialog" data-transition="pop"></a>
+					</li>
+					<li>
+						<a href="#" class="image-viewer-back" data-icon="custom" data-transition="slide" data-direction="reverse"></a>
+					</li>
+					<li>
+						<a href="#" class="image-viewer-play" data-icon="custom" data-transition="slide"></a>
+					</li>
+					<li>
+						<a href="#" class="image-viewer-forward" data-icon="custom" data-transition="slide"></a>
+					</li>
+					<li>
+						<a href="#" class="image-viewer-post" data-icon="custom" data-transition="slide" data-direction="reverse"></a>
+					</li>
+				</ul>
+			</div><!-- /tabbar-->
+		</div><!-- /footer -->
+	</div><!-- /page -->
+</div><!-- /template -->
+
+<div id="dialogs" class="hidden"></div>
+<div id="sandbox" class="hidden"></div>
+
+	<div style="display:none">
+	</div>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201303'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2013Janaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/www.remkoweijnen.nl\/blog\/wp-includes\/js\/thickbox\/loadingAnimation.gif","closeImage":"http:\/\/www.remkoweijnen.nl\/blog\/wp-includes\/js\/thickbox\/tb-close.png"};
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close"};
+try{convertEntities(thickboxL10n);}catch(e){};;
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.remkoweijnen.nl/blog/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+
+<script type="text/javascript">
+var tb_pathToImage = "http://www.remkoweijnen.nl/blog/wp-includes/js/thickbox/loadingAnimation.gif";
+var tb_closeImage = "http://www.remkoweijnen.nl/blog/wp-includes/js/thickbox/tb-close.png";
+</script>
+
+<div class="hidden">
+	<a href="#" id="webview_links_handler"></a>
+</div>
+
+<style type="text/css">
+	.tabbar-tab-74343136343132 .ui-icon{background:url("http://admin.wiziapp.com/images/app/tabicons/iconRecent_grey.png") 50% 50% no-repeat;}.tabbar-tab-74343136343132.ui-btn-active .ui-icon,.tabbar-tab-74343136343132.ui-btn-hover-a .ui-icon{background:url("http://admin.wiziapp.com/images/app/tabicons/iconRecent_on.png") 50% 50% no-repeat;}.tabbar-tab-74343136343133 .ui-icon{background:url("http://admin.wiziapp.com/images/app/tabicons/iconCategories_grey.png") 50% 50% no-repeat;}.tabbar-tab-74343136343133.ui-btn-active .ui-icon,.tabbar-tab-74343136343133.ui-btn-hover-a .ui-icon{background:url("http://admin.wiziapp.com/images/app/tabicons/iconCategories_on.png") 50% 50% no-repeat;}.tabbar-tab-74343136343134 .ui-icon{background:url("http://admin.wiziapp.com/images/app/tabicons/iconPages_grey.png") 50% 50% no-repeat;}.tabbar-tab-74343136343134.ui-btn-active .ui-icon,.tabbar-tab-74343136343134.ui-btn-hover-a .ui-icon{background:url("http://admin.wiziapp.com/images/app/tabicons/iconPages_on.png") 50% 50% no-repeat;}.tabbar-tab-74343136343135 .ui-icon{background:url("http://admin.wiziapp.com/images/app/tabicons/12_grey.png") 50% 50% no-repeat;}.tabbar-tab-74343136343135.ui-btn-active .ui-icon,.tabbar-tab-74343136343135.ui-btn-hover-a .ui-icon{background:url("http://admin.wiziapp.com/images/app/tabicons/12_on.png") 50% 50% no-repeat;}.tabbar-tab-74343136343136 .ui-icon{background:url("http://admin.wiziapp.com/images/app/tabicons/iconArchive_grey.png") 50% 50% no-repeat;}.tabbar-tab-74343136343136.ui-btn-active .ui-icon,.tabbar-tab-74343136343136.ui-btn-hover-a .ui-icon{background:url("http://admin.wiziapp.com/images/app/tabicons/iconArchive_on.png") 50% 50% no-repeat;}
+</style>
+</body>
+</html>";
